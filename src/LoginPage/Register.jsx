@@ -45,10 +45,7 @@ export default function Register() {
         <label>Password</label>
         <input className='password' type="password" placeholder='enter password...' value={data.password} onChange={(e)=>setData({...data,password:e.target.value})}/>
         <Link to='/login'>Already a member? Login</Link>
-        <ReCAPTCHA
-        sitekey="6LeJa3gpAAAAAGNkIb1M0zIsKP81-0JCAxhf3MpF"
-        onChange={onChange}
-        />
+        <br />
         <button className='loginbutton' type='submit'>Submit</button>
       </form>
       </div>
