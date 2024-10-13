@@ -1,0 +1,39 @@
+.email, .password, .name {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 16px;
+  border: 1px solid;
+  border-radius: 4px;
+}
+
+.email:focus, .password:focus, .name:focus {
+  border-width: 3px; 
+}
+.loginbutton{
+  background-color: #4CAF50;
+  border-radius: 4px;
+  color:white;
+  font-family: 'Poppins', sans-serif;
+  border:none;
+}
+    
+  .button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+/* Container */
+.registercontainer {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
+    background-image: url('./RegisterBg.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    font-family: 'Poppins', sans-serif;
+}

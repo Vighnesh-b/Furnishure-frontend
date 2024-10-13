@@ -1,0 +1,35 @@
+.email, .password {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 16px;
+  border: 3px solid;
+  border-radius: 4px;
+}
+
+.button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #45a049;
+  margin-top: 20px;
+}
+
+/* Container */
+.logincontainer {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height: 100vh;
+  background-image: url('./loginBackground.jpeg'); 
+  background-size: cover; 
+  background-position: center; 
+  font-family: 'Poppins', sans-serif;
+}
+
+
