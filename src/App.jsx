@@ -23,7 +23,7 @@ import Dashboard from './DashBoard/Dashboard';
 import Cart from './cart/cart';
 
 
-axios.defaults.baseURL = 'https://furnishure-server.vercel.app';
+axios.defaults.baseURL = 'https://furnishure-server.vercel.app/api';
 axios.defaults.withCredentials=true
 
 function App() {

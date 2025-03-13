@@ -24,7 +24,8 @@ export default function LoginPage() {
       const { data: responseData } = await axios.post('/login', {
         email,
         password,
-      });
+      },
+      { withCredentials: true });
 
       if (responseData.error) {
         toast.error(responseData.error);
@@ -33,7 +34,7 @@ export default function LoginPage() {
           ...data,
           password: '', 
         });
-        axios.get('/profile').then(({data}) => (setUser(data)))
+        axios.get('/profile',{ withCredentials: true }).then(({data}) => (setUser(data)))
         navigate('/');
         toast.success('Login successful');
       }
